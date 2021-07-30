@@ -10,9 +10,9 @@ import (
 const (
 	host     = "127.0.0.1"
 	port     = 5432
-	user     = "postgres"
-	password = "noisepageant123"
-	dbname   = "sendgrid"
+	user     = ""
+	password = ""
+	dbname   = ""
 )
 
 func PSQLConnect() *sql.DB {
